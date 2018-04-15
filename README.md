@@ -9,7 +9,7 @@ $ ./gradlew build
 
 Docker build 
 ```
-$ docker build -t spring-performance-api*latest .
+$ docker build -t spring-performance-api:latest .
 ```
 
 Docker run container
