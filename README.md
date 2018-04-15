@@ -1,5 +1,5 @@
 # Spring performance
-SpringBoot performance verification.
+SpringBoot performance verification repository.
 
 # Setup
 Build
