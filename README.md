@@ -14,5 +14,5 @@ $ docker build -t spring-performance-api:latest .
 
 Docker run container
 ```
-$ docker run -p 8080:8080 spring-performance-api
+$ docker run -p 80:8080 spring-performance-api
 ```
