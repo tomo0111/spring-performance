@@ -22,6 +22,11 @@ public class ApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ApiApplication.class, args);
 	}
+        
+ 	@GetMapping(value = "/hello")
+	public String hello() {
+		return "hello world"; 
+	}
 
 	@GetMapping(value = "/items")
 	public Map<String, List<ItemEntity>> get() {
