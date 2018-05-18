@@ -24,8 +24,10 @@ public class ApiApplication {
 	}
         
  	@GetMapping(value = "/hello")
-	public String hello() {
-		return "hello world"; 
+	public Map<String, String> hello() {
+		Map<String, String> map = new HashMap<String, String>();
+		map.put("key", "hello world");
+		return map; 
 	}
 
 	@GetMapping(value = "/items")
